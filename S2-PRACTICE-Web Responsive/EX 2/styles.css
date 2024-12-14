@@ -1,0 +1,30 @@
+.container{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    width: 100%;
+}
+h2{
+    color: white;
+    margin-left: 20px;
+}
+.navi{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: auto;
+    gap: 15px;
+    
+}
+i{
+    visibility: hidden;
+}
+@media (max-width:768px){
+    .nav{
+        display: none;
+    }
+    i{
+        visibility: visible; 
+        margin-right: 20px;  
+    }
+}
